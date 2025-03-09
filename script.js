@@ -11,7 +11,7 @@ document.getElementById("start").addEventListener("click", () => {
 });
 
 function makeBubble() {
-  for (let i = 1; i < 144; i++) {
+  for (let i = 1; i < 78; i++) {
     let x = Math.floor(Math.random() * 10);
     document.getElementById(
       "pbtm"
