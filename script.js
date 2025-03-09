@@ -7,6 +7,7 @@ document.getElementById("start").addEventListener("click", () => {
   document.getElementById("pbtm").style.flexDirection = "row";
   makeBubble();
   timer();
+  getHit();
 });
 
 function makeBubble() {
@@ -54,18 +55,3 @@ document.getElementById("pbtm").addEventListener("click", (dets) => {
     makeBubble(); // Generate a new set of bubbles
   }
 });
-
-// document.getElementById("pbtm").addEventListener("click", (dets) => {
-//   let hit = document.getElementById("hit").innerText;
-//   let bubbles = dets.target.innerText;
-//   if (hit === bubbles) {
-//     scoreCount();
-//     getHit();
-//     // dets.target.remove();
-//     // makeBubble();
-//   }
-// });
-
-// timer();
-// makeBubble();
-getHit();
