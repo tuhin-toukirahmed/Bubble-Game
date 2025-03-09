@@ -1,4 +1,4 @@
-let time = 10;
+let time = 60;
 let score = 0;
 let randomNum = Math.floor(Math.random() * 10);
 
