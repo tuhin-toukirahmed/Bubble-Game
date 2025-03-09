@@ -93,3 +93,26 @@ body {
 #bubbles:hover {
   background-color: rgba(75, 145, 72, 0.82);
 }
+
+@media screen and (max-width: 600px) {
+  #panel {
+    height: 100%;
+    width: 100%;
+  }
+  #ptop {
+    gap: 50px;
+  }
+  #pbtm {
+    gap: 5px;
+  }
+  #pbtm button {
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+  }
+  #bubbles {
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+  }
+}
